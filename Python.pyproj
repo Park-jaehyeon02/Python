@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e626da4-847b-444e-b9e5-9dca1781d08b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>format01.py</StartupFile>
+    <StartupFile>format02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,10 @@
     <Compile Include="format01.py" />
     <Compile Include="format_lec.py" />
     <Compile Include="format02.py" />
+    <Compile Include="var.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

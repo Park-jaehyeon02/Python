@@ -9,7 +9,7 @@ month = 3
 day = 15
 day_week = "화"
 temp = 15.3
-a
+
 print("{y}년{m}월{d}일{dw}요일입니다.".format(m=month,d=day,dw=day_week,y=year))
 print("{0:02d}월{1}은{2}요일은 온도가 {3:.2f}도입니다.".format(month,day,day_week,temp))
 
