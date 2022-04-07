@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e626da4-847b-444e-b9e5-9dca1781d08b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>source\iffunc.py</StartupFile>
+    <StartupFile>source\loop.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
     <Compile Include="source\format_lec.py" />
     <Compile Include="source\format02.py" />
     <Compile Include="source\iffunc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\loop.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="source\type.py">

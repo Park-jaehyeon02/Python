@@ -105,6 +105,7 @@ if (d.time().hour>=12):
         print("{}시 {}분 입니다.".format(d.time().hour-12, d.time().minute))
 """
 
+"""
 s1 = int(input("파이썬 점수를 입력하세요: "))
 s2 = int(input("C언어 점수를 입력하세요: "))
 s3 = int(input("컴퓨터개론 점수를 입력하세요: "))
@@ -130,3 +131,5 @@ elif (a>=60):
 else:
     print("F학점 입니다")
     print("다음에 재수강 해야합니다")
+
+"""
