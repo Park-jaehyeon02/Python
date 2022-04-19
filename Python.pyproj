@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e626da4-847b-444e-b9e5-9dca1781d08b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>source\loop.py</StartupFile>
+    <StartupFile>source\format02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="source\def1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\def2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\format01.py" />
     <Compile Include="source\format_lec.py" />
     <Compile Include="source\format02.py" />

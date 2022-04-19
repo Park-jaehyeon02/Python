@@ -131,8 +131,10 @@ import datetime as dt
 year = int(input("출생년도를 입력하세요: "))
 month = int(input("출생월을 입력하세요: "))
 day = int(input("출생일을 입력하세요: "))
-print("출생일({0}년{1}월{2}일)로 부터 {3},{4}일 지났습니다.".format(year, month, day, (dt.datetime.today() - dt.datetime(year,month,day)).days//1000,(dt.datetime.today() - dt.datetime(year,month,day)).days%1000 ))
+cd = dt.datetime.today()-dt.datetime(year,month,day)
+print("출생일({0}년{1}월{2}일)로 부터 {3},{4}일 지났습니다.".format(year, month, day, cd.days//1000,cd.days%1000 ))
 """
+
 
 """
 import datetime as dt
@@ -155,6 +157,7 @@ print("2050년에는 {}살이 되시겠네요".format(p[1]+2050-dt.datetime.today().year))
 print("남자 평균키인 175.5cm에 {0:0.1f}cm, 여성 평균키인 163.2cm에 {1:0.1f}cm차이가 나네요.".format(p[2]-175.5,p[2]-163.2))
 """
 
+"""
 li = []
 su = 0
 avg = 0.0
@@ -165,3 +168,4 @@ avg = su/5
 print(li)
 print("데이터 합계: ",su)
 print("데이터 평균: %0.2f"% avg)
+"""

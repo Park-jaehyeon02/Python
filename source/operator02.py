@@ -64,11 +64,13 @@ r = ((x2-x1)**2 + (y2-y1)**2))**0.5
 print("두 점 사이의 거리:%.2f" % r)
 """
 
+
+
 x = int(input("x: "))
 y = int(input("y: "))
 
 print("x:",bin(x))
 print("y:",bin(y))
 print("&: ",bin(x&y),"=>",x&y)
-print("|: ",bin(x|yk),"=>",x|y)
+print("|: ",bin(x|y),"=>",x|y)
 print("^: ",bin(x^y),"=>",x^y)
