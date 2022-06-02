@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0e626da4-847b-444e-b9e5-9dca1781d08b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>source\file1.py</StartupFile>
+    <StartupFile>source\lib3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="source\class2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\def1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="source\def2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="source\class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\except1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\file1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\file2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="source\format01.py" />
@@ -36,10 +48,25 @@
     <Compile Include="source\iffunc.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="source\lib1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\lib2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\lib3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="source\list_dict.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="source\loop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\tuple_set.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\tuple_set2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="source\type.py">
@@ -53,6 +80,7 @@
     <Content Include="input.txt" />
     <Content Include="README.md" />
     <Content Include="proverbs.txt" />
+    <Content Include="source\lenna.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="source\" />
